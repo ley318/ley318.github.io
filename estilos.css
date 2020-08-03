@@ -1,0 +1,46 @@
+
+#main{
+	border: 1px solid #ffa500;
+	height: 600px;
+	width: 1000px;
+	margin: auto;
+}
+
+#header{
+	border: 1px solid red;
+	height: 100px;
+	width: 1000px;
+}
+
+#nav{
+	border: 1px solid blue;
+	height: 50px;
+	width: 1000px;
+}
+
+#section{
+	border: 1px solid green;
+	height: 340px;
+	width: 600px;
+	float: left;
+}
+
+.article{
+	border: 1px solid red;
+	height: 170px;
+	width: 600px;
+}
+
+#aside{
+	border: 1px solid green;
+	height: 339px;
+	width: 390px;
+	float: right;
+}
+
+#footer{
+	border: 1px solid black;
+	height: 100px;
+	width: 1000px;
+	clear: both;
+}
