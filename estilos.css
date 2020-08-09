@@ -1,46 +1,66 @@
 
 #main{
-	border: 1px solid #ffa500;
-	height: 600px;
+	border: 1px solid black;
+	height: 640px;
 	width: 1000px;
 	margin: auto;
 }
 
 #header{
 	border: 1px solid red;
-	height: 100px;
+	height: 102px;
 	width: 1000px;
+}
+
+img{
+	height: 100%;
+	width: 100%;
 }
 
 #nav{
 	border: 1px solid blue;
-	height: 50px;
+	background-color: #1C4A48;
+	margin-bottom: 15px;
+	height: 55px;
 	width: 1000px;
 }
 
 #section{
 	border: 1px solid green;
-	height: 340px;
+	margin-bottom: 15px;
+	height: 365px;
 	width: 600px;
 	float: left;
 }
 
 .article{
 	border: 1px solid red;
-	height: 170px;
-	width: 600px;
+	background-color: #FBF5BA;
+	margin-bottom: 15px;
+	height: 173px;
+	width: 100%px;
+}
+
+.article1{
+	border: 1px solid blue;
+	background-color: #FBF5BA;
+	height: 173px;
+	width: 100%;
 }
 
 #aside{
 	border: 1px solid green;
-	height: 339px;
+	background-color: #1C4A48;
+	margin-bottom: 15px;
+	height: 365px;
 	width: 390px;
 	float: right;
 }
 
 #footer{
 	border: 1px solid black;
-	height: 100px;
+	background-color: #1C4A48;
+	height: 80px;
 	width: 1000px;
 	clear: both;
 }

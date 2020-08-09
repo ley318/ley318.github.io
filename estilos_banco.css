@@ -1,0 +1,11 @@
+*{
+	margin: 0px;
+}
+
+main{
+	margin: auto;
+	margin-top: 8px;
+	border: solid 2px red;
+	height: 600px;
+	width: 800px;
+}
