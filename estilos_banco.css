@@ -5,14 +5,12 @@
 main{
 	margin: auto;
 	margin-top: 8px;
-	border: solid 1px red;
 	height: 620px;
 	width: 800px;
 }
 
 header{
-	border: solid 1px green;
-	height: 100px;
+	height: 95px;
 	width: 100%;
 }
 
@@ -22,26 +20,47 @@ img{
 }
 
 nav{
-	border: solid 1px yellow;
 	margin-bottom: 15px;
-	height: 50px;
+	background-color: #FFBD16;
+	border-radius: 0px 0px 15px 15px;
+	height: 40px;
 	width: 100%;
+}
+
+li{
+	list-style: none;
+	display: inline;
+	padding-right: 80px;
+	font-size: 22px;
 }
 
 section{
 	border: solid 1px blue;
 	float: left;
 	margin-bottom: 15px;
-	height: 404px;
+	height: 388px;
 	width: 266px;
+}
+
+section article{
+	border: solid 1px blue;
+	height: 192px;
+	width: 100%;
 }
 
 aside{
 	border: solid 1px red;
 	float: right;
 	margin-bottom: 15px;
-	height: 404px;
+	height: 388px;
 	width: 530px;
+}
+
+aside article{
+	float: right;
+	border: solid 1px green;
+	height: 192px;
+	width: 49%;
 }
 
 footer{
@@ -49,6 +68,7 @@ footer{
 	clear: both;
 	color: #7C7C7C;
 	background-color: #232323;
+	border-radius: 0px 0px 15px 15px;
 	height: 60px;
 	width: 100%;
 }

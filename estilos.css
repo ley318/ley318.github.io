@@ -1,13 +1,11 @@
 
 #main{
-	border: 1px solid black;
 	height: 640px;
 	width: 1000px;
 	margin: auto;
 }
 
 #header{
-	border: 1px solid red;
 	height: 102px;
 	width: 1000px;
 }
@@ -21,6 +19,7 @@ img{
 	border: 1px solid blue;
 	background-color: #1C4A48;
 	margin-bottom: 15px;
+	border-radius: 0px 0px 15px 15px;
 	height: 55px;
 	width: 1000px;
 }
@@ -43,6 +42,11 @@ li{
 	height: 365px;
 	width: 600px;
 	float: left;
+}
+
+p{
+	margin-left: 10px;
+	margin-right: 200px;
 }
 
 .article{
@@ -72,7 +76,16 @@ li{
 #footer{
 	border: 1px solid black;
 	background-color: #1C4A48;
+	border-radius: 0px 0px 15px 15px;
 	height: 80px;
 	width: 1000px;
 	clear: both;
+}
+
+footer p{
+	margin-top: 8;
+}
+
+table td{
+	padding: 11px;
 }
