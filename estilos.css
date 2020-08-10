@@ -25,6 +25,18 @@ img{
 	width: 1000px;
 }
 
+.menu{
+	list-style: none;
+}
+
+li{
+	display: inline;
+	padding-right: 120px;
+	font-size: 22px;
+	color: white;
+
+}
+
 #section{
 	border: 1px solid green;
 	margin-bottom: 15px;
