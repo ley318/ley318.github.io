@@ -1,91 +1,122 @@
+*{
+	margin: 0px
+}
 
-#main{
-	height: 640px;
-	width: 1000px;
+h2{
+	margin: 5px;
+}
+
+#contenedor{
+	height: 600px;
 	margin: auto;
+	width: 800px;
+	margin-top: 10px;
 }
 
-#header{
-	height: 102px;
-	width: 1000px;
+header{
+	height: 120px;
+	width: 800px;
 }
 
-img{
-	height: 100%;
-	width: 100%;
-}
-
-#nav{
-	border: 1px solid blue;
+nav{
 	background-color: #1C4A48;
-	margin-bottom: 15px;
+	height: 50px;
+	width: 800px;
+	margin-bottom: 10px;
 	border-radius: 0px 0px 15px 15px;
-	height: 55px;
-	width: 1000px;
 }
 
-.menu{
-	list-style: none;
-}
-
-li{
-	display: inline;
-	padding-right: 120px;
-	font-size: 22px;
-	color: white;
-
-}
-
-#section{
-	border: 1px solid green;
-	margin-bottom: 15px;
-	height: 365px;
-	width: 600px;
+section{
 	float: left;
+	height: 323px;
+	width: 480px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.articulo{
+	height: 155px;
+	width: 480px;
+	margin-bottom: 15px;
+	background-color: #FBF5BA;
+	border-radius: 15px;
+}
+
+aside{
+	float: right;
+	height: 326px;
+	width: 290px;
+	margin-bottom: 10px;	
+}
+
+footer{
+	background-color: #1C4A48;
+	color: #97A5A4;
+	clear: both;
+	height: 80px;
+	width: 800px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+footer h5{
+	padding-top: 15px;
+}
+
+header img{
+	height: 100%;
+	width: 800px;	
+}
+
+aside header{
+	width: 100%;
+	height: 30px;
+	color: #FFFFFF;
+	padding-top: 5px;
+	background-color: #0B2826;
+	border-radius: 15px 15px 0px 0px;
+	font-size: 22px;
+}
+
+aside{
+	background-color: #496E6D;
+	border-radius: 15px 15px 15px 15px;
 }
 
 p{
+	text-align: justify;
+	height: 130px;
+	float: left;
 	margin-left: 10px;
-	margin-right: 200px;
+	display: inline;
+	width: 325px;
 }
 
-.article{
-	border: 1px solid red;
-	background-color: #FBF5BA;
-	margin-bottom: 15px;
-	height: 173px;
-	width: 100%px;
+ul{
+
+	padding-top: 12px;
 }
 
-.article1{
-	border: 1px solid blue;
-	background-color: #FBF5BA;
-	height: 173px;
-	width: 100%;
+li{
+	list-style: none;
+  	display: inline;
+	color: #FFFFFF;
+	padding-right: 90px;
+
 }
 
-#aside{
-	border: 1px solid green;
-	background-color: #1C4A48;
-	margin-bottom: 15px;
-	height: 365px;
-	width: 390px;
+.imagen1{
 	float: right;
+	margin-right: 20px;
 }
 
-#footer{
-	border: 1px solid black;
-	background-color: #1C4A48;
-	border-radius: 0px 0px 15px 15px;
-	height: 80px;
-	width: 1000px;
-	clear: both;
+td{
+	padding-top: 10px;
+	color: #FFFFFF;
+	font-size: 21px;
 }
 
-footer p{
-	margin-top: 8;
-}
-
-table td{
-	padding: 11px;
+button{
+	padding-top: 5px;
+	margin-top: 15px;
+	border-radius: 10px;
 }
