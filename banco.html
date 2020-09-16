@@ -3,63 +3,106 @@
 <head>
 	<meta charset="utf-8">
 	<title>Banco</title>
-	<link rel="stylesheet" type="text/css" href="estilos_banco.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="banco.css">
 </head>
 <body>
 	<a href="index.html">Pagina veterinaria</a>
-<main id="contenedor">
-	<header><img src="imagenes/banco.png"; id="encabezado"></header>
-	<nav>
-		<ul id="menu"><h2>
-			<li class="navega">.Creditos.</li>
-			<li class="navega">.Leasing.</li>
-			<li class="navega">.Ahorros.</li>
-			<li class="navega">.Servicio al cliente.</li></h2>
-		</ul>
-	</nav>
-	<aside>
-		<article class="aparte"><center><header class="titulo" style="border-radius: 15px 15px 0px 0px"><label>INGRESA A TU CUENTA</label></header>
-			<table>
-				<tr>
-					<td class="datos"><label>Cuenta:</label></td>
-					<td class="datos"><input type="text" name=""></td>
-				</tr>
-				<tr>
-					<td class="datos"><label>Tipo:</label></td>
-					<td class="datos"><input type="text" name=""></td>
-				</tr>
-				<tr>
-					<td class="datos"><label>Clave:</label></td>
-					<td class="datos"><input type="text" name=""></td>
-				</tr>
-			</table><button>Ingresar</button></center>
-		</article>
-		<article class="aparte1"><center>
-			<header class="titulo"; style="color: #C39115">TRANSACCIONES</header>
-			<table>
-				<tr>
-					<td class="textos">Banca personal <hr></td>
-					<td class="textos">Banca empresarial <hr></td>
-					<td class="textos">Banca seguros <hr></td>
-					<td class="textos">Pago de facturas</td>
-				</tr>
-			</table>
-			<header class="titulo"; style="color: #C39115">TARJETAS DE CREDITO</header>
-			<table>
-				<tr>
-					<td class="textos">Credi Visa <hr></td>
-					<td class="textos">Credi Mastercard</td>
-				</tr>
-			</table>
-		</center></article>
-	</aside>
-	<section><center>
-		<article class="seccion"><header class="titulo" style="border-radius: 15px 0px 0px 0px">Solicita nuestros productos</header><img src="imagenes/tarjeta.png"><p class="letra">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p></article>
-		<article class="seccion1"><header class="titulo" style="border-radius: 0px 15px  0px 0px">Ahorro estudiantil</header><img src="imagenes/libro.png"><p class="letra">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p></article>
-		<article class="seccion2"><header class="titulo">Credito vehiculos</header><img src="imagenes/llaves.png"><p class="letra">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p></article>
-		<article class="seccion3"><header class="titulo">Credito hipotecario</header><img src="imagenes/hogar.png"><p class="letra">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p></article>
-	</center></section>
-	<footer><p id="contactos"><center><h4>Contactenos <br>Linea gratuita 018000-00001 <br>Banco entidad finaciera-Todos los derechos reservados.</h4></p></center></footer>
-</main>
+
+<body>
+	<main class="container contenedor">
+		<header>
+			<img src="imagenes/banco.png"; id="encabezado">
+		</header>
+		<nav>
+			<ul>
+				<li class="navega"><a href="#">.Creditos.</a></li>
+				<li class="navega"><a href="#">.Leasing.</a></li>
+				<li class="navega"><a href="#">.Ahorros.</a></li>
+				<li class="navega"><a href="#">.Servicio al cliente.</a></li>
+			</ul>
+		</nav>
+		<section>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-4">
+					<div class="row">
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<article><center><header><h4>INGRESA A TU CUENTA</h4></header>
+								<table>
+									<tr>
+										<td><label>Cuenta:</label></td>
+										<td><input type="text" name=""></td>
+									</tr>
+									<tr>
+										<td><label>Tipo:</label></td>
+										<td><input type="text" name=""></td>
+									</tr>
+									<tr>
+										<td><label>Clave:</label></td>
+										<td><input type="text" name=""></td>
+									</tr>
+								</table><button>Ingresar</button></center>
+							</article>
+						</div>
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<article class="informacion"><center>
+								<header class="titulo">TRANSACCIONES</header>
+								<table>
+									<tr>
+										<td class="textos">Banca personal</td>
+										<td class="textos">Banca empresarial</td>
+										<td class="textos">Banca seguros</td>
+										<td class="textos">Pago de facturas</td>
+									</tr>
+								</table>
+								<header class="titulo">TARJETAS DE CREDITO</header>
+								<table>
+									<tr>
+										<td class="textos">Credi Visa</td>
+										<td class="textos">Credi Mastercard</td>
+									</tr>
+								</table>
+							</center></article>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-4">
+					<div class="row">
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<article class="seccion"><header><h4>Solicita nuestros productos</h4></header><img src="imagenes/tarjeta.png" class="imagen"><p class="letra">Lorem ipsum
+								dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+								magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+								magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></article>
+						</div>
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<article class="seccion1"><header><h4>Ahorro estudiantil</h4></header><img src="imagenes/libro.png" class="imagen"><p class="letra">Lorem ipsum dolor
+								sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+								magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></article>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-4">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<article class="seccion2"><header><h4>Credito vehiculos</h4></header><img src="imagenes/llaves.png" class="imagen"><p class="letra">Lorem ipsum dolor
+								sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+								magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></article>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<article class="seccion3"><header><h4>Credito hipotecario</h4></header><img src="imagenes/hogar.png" class="imagen"><p class="letra">Lorem ipsum dolor
+								sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+								magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<footer><p id="contactos"><center><h5>Contactenos <br>Linea gratuita 018000-00001 <br>Banco entidad finaciera-Todos los derechos reservados.</h5></p></center></footer>
+		</footer>
+
+	</main>
 </body>
-</html>
